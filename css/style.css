@@ -1,0 +1,285 @@
+html {
+	scroll-behavior: smooth;
+}
+pre {
+    white-space: pre-wrap; 
+    word-wrap: break-word;
+    font-family: inherit;
+}
+.bg-gmb {
+	background-image: url(../assets/img/bg3.jpg);
+	background-size: cover;
+}
+h2 {
+	font-family: 'Catamaran', sans-serif;
+	color: #010232;
+}
+h3 {
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+}
+.lain a:hover {
+	border-bottom: #010232;
+	color:  #374ec8 !important;
+}
+hr {
+	width: 50px;
+	height: 2px;
+	background-color: #374ec8;
+	margin-bottom: 30px;
+}
+.bg-biru {
+	background-color: #82c7e6;
+}
+.bg-merah {
+	background-color: #f8c9cf;
+}
+form label{
+	font-family: 'viga', sans-serif;
+}
+/*--------navbar----------*/
+.nav-navbar {
+	background-color: #f8f9fa;
+}
+.navbar img {
+	width: 220px;
+}
+
+.nav-link {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+.navbar-brand {
+	font-family: 'viga', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+} 
+.nav-navbar .tombol {
+	margin-top: 10px;
+}
+/*------section 1--------*/
+.jumbotron {
+	background-image: url(../assets/img/bg.png);
+	background-size: cover;
+	height: 900px;
+	margin-top: -300px;
+	position: relative;
+}
+
+.jumbotron .container {
+	z-index: 1;
+	position: relative;
+}
+
+.jumbotron::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,0.7231093120842087) 35%, rgba(255,255,255,0) 100%);
+}
+
+.btn-jumbo {
+	padding: 10px 30px 10px 30px;
+	border-radius: 50px;
+	font-weight: bold;
+	border: transparent;
+	color: #ffffff;
+}
+
+.sec1 {
+	margin-top: 450px;
+}
+.display-5 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+
+.display-4 {
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+	font-size: 300%;
+	color: #ffffff;
+}
+/*------about--------*/
+.about .img1 {
+	border-radius:1px 100px ;
+}
+.about .img2 {
+	border-radius:100px 1px ;
+}
+.about p {
+	text-align: center;
+}
+.about h2 {
+	text-align: center;
+}
+.translate .card {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.statik .haha {
+	padding: 30px;
+}
+.statik h5 {
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+}
+.modal-content {
+	border-radius: 20px;
+}
+.modal h2{
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	color: #010232;
+}
+.modal button {
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 6px 40px 6px 40px;
+	border-radius: 50px;
+}
+/*------kelas--------*/
+.kelas .card {
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+}
+.kelas a {
+	text-decoration:none;
+	color: #010232 !important;
+}
+.shadow {
+	display: block;
+	vertical-align: middle;
+	position: relative;
+	transition-duration: 0.3s;
+	transition-property: transform;
+	cursor: pointer;
+}
+
+.shadow:hover,
+.shadow:focus,
+.shadow:active {
+	transform: translateY(-10px);
+	background-color: #93d3ec !important;
+	color: #ffffff !important;
+	/* move the element up by 5px */
+}
+
+/*------footer--------*/
+.footer {
+	font-weight: bold;
+	font-family: 'viiga', sans-serif;
+	text-align: center;
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.nav-navbar {
+		background: transparent;
+	}
+	.dark .nav-navbar {
+		background: transparent;
+	}
+
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 30px;
+		font-size: 16px;
+		text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+		color: white !important;
+	}
+
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid #374ec8;
+		width: 50%;
+		margin: auto;
+		padding-top: 5px;
+		margin-bottom: -8px;
+	}
+	.navbar-brand {
+		color: #ffffff !important;
+	}
+	.nav-navbar.active {
+		background: #f8f9fa;
+	}
+	.active .nav-link {
+		color: #010232 !important;
+		text-shadow: 0px 0px 0px;
+	}
+	.active .navbar-brand {
+		color: #010232 !important;
+	}
+	.nav-navbar .tombol {
+		margin-left: 30px;
+		margin-top: 0px;
+	}
+	/*------section 1--------*/
+
+	.jumbotron {
+		margin-top: -280px;
+	}
+	.sec1 {
+		margin-top: 420px;
+	}
+	/*------section 2--------*/
+	.about p {
+		text-align: left;
+	}
+	.about h2 {
+		text-align: left;
+	}
+	.statik .haha {
+		padding: 0px;
+	}
+	.translate .card {
+		padding: 20px 50px;
+	}
+	/*------section 2--------*/
+	.card {
+		margin-bottom: 40px;
+	}
+	.modal-body form {
+		padding: 0px 50px 0px 50px;
+	}
+}
+
+
+/*------------------------
++-------kelas------------+
+-------------------------*/
+.materi {
+	margin-top: 100px;
+}
+.materi .card {
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 5px;
+}
+.materi h4 {
+	font-family: 'viga', sans-serif;
+	color: #010232;
+}
+.materi a {
+	text-decoration: none;
+	color: #010232 !important;
+}
+/*------------------------
++-------login------------+
+-------------------------*/
+.form .card {
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	margin-bottom: 5px;
+}
